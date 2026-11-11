@@ -8,6 +8,7 @@ import export_texturecraft as export
 
 class ExportTests(unittest.TestCase):
     def test_rustc_decodes_escaped_and_raw_literals(self):
+        """Verify rustc preserves decoded Unicode, escaped characters and raw literals."""
         source = r'''pub const TABLE: &[(&str, &str)] = &[
             ("A\nB\tC\\D\"", "á\u{1f43e}"),
             (r#"raw\text"# , "translation"),
@@ -15,6 +16,7 @@ class ExportTests(unittest.TestCase):
         real_output = export.output
 
         def output(*args, cwd=None):
+            """Substitute Git input while still running the real compiler and exporter."""
             return source if args[0] == 'git' else real_output(*args, cwd=cwd)
 
         with patch.object(export, 'output', side_effect=output):
@@ -24,10 +26,12 @@ class ExportTests(unittest.TestCase):
         self.assertEqual(tables['es'][('', r'raw\\text')], 'translation')
 
     def test_duplicate_keys_are_rejected(self):
+        """Reject ambiguous duplicate keys instead of silently dropping a translation."""
         source = 'pub const TABLE: &[(&str, &str)] = &[("Same", "a"), ("Same", "b")];'
         real_output = export.output
 
         def output(*args, cwd=None):
+            """Substitute Git input while still running the real compiler and exporter."""
             return source if args[0] == 'git' else real_output(*args, cwd=cwd)
 
         with patch.object(export, 'output', side_effect=output):
@@ -35,6 +39,7 @@ class ExportTests(unittest.TestCase):
                 export.original_tables(Path('.'), 'fixture')
 
     def test_app_overrides_shared_and_region_inherits_parent(self):
+        """Check regional fallback and app-over-shared precedence together."""
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             for locale in ['pt', 'pt-br']:
@@ -46,6 +51,7 @@ class ExportTests(unittest.TestCase):
             self.assertEqual(export.resolved(root, 'pt-br'), {('', 'Open'): 'Abrir', ('', 'Save'): 'Salvar projeto'})
 
     def test_script_variant_does_not_inherit_base_language(self):
+        """Keep script variants separate rather than inheriting another writing system."""
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root/'locales/zh').mkdir(parents=True)

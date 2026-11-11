@@ -25,10 +25,12 @@ LANGUAGES = {
 
 
 def output(*args, cwd=None):
+    """Run a command and return its stdout decoded as UTF-8."""
     return subprocess.check_output(args, cwd=cwd, text=True, encoding='utf-8')
 
 
 def original_tables(checkout, revision):
+    """Compile the nine tables at a fixed Git revision and return escaped TSV rows."""
     with tempfile.TemporaryDirectory() as directory:
         temp = Path(directory)
         code = [r'fn esc(s: &str) -> String { s.replace("\\", "\\\\").replace("\t", "\\t").replace("\n", "\\n") }']
@@ -57,6 +59,7 @@ def original_tables(checkout, revision):
 
 
 def read(path):
+    """Read a catalog, returning no rows for an absent file and rejecting malformed rows."""
     if not path.exists():
         return {}
     rows, problems = parse(path.read_text(encoding='utf-8'))
@@ -77,6 +80,7 @@ def resolved(root, locale):
 
 
 def migrate(checkout, revision, root, check=False):
+    """Export an initial catalog snapshot or verify it without writes when check is true."""
     sha = output('git', 'rev-parse', '--verify', revision + '^{commit}', cwd=checkout).strip()
     tables = original_tables(checkout, sha)
     for locale, original in tables.items():
@@ -101,6 +105,7 @@ def migrate(checkout, revision, root, check=False):
 
 
 def main():
+    """Parse the checkout, source revision and read-only verification options."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('checkout', type=Path)
     parser.add_argument('--ref', required=True)
