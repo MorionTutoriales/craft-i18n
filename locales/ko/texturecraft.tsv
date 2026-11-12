@@ -239,6 +239,7 @@
 	Detail sizes	디테일 크기
 	Details	세부 사항
 	Details saved to {file}	자세한 내용 저장 위치: {file}
+	Diamond brocade	마름모 브로케이드
 	Dilation + default background color	확장 + 기본 배경색
 	Dilation + transparent	확장 + 투명
 	Dilation infinite	무한 확장
@@ -375,6 +376,7 @@
 	Group layer(s)	레이어 그룹화
 	Grunge	그런지
 	Half	1/2
+	Halftone dots	망점
 	Hammered	망치 자국
 	Hard light	하드 라이트
 	Hardness	경도
@@ -382,6 +384,8 @@
 	height	높이
 	Height offset	높이 오프셋
 	Height to normal strength	높이-노멀 변환 강도
+	Herringbone planks	헤링본 판재
+	Hexagon tiles	육각형 타일
 	Hide all	모두 숨기기
 	Hide UI	UI 숨기기
 	Hide while painting	페인팅 중 숨기기
@@ -846,6 +850,7 @@
 	Tri-planar projection	트라이플래너 투영
 	Triangle fill	삼각형 채우기
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	삼각형은 개별 삼각형, 폴리곤은 사각형과 N각형 전체, 메시는 연결된 지오메트리, UV 아일랜드는 UV 아일랜드를 채웁니다
+	Truchet arcs	트뤼셰 호
 	Twill weave	능직
 	Type	유형
 	UDIM plane	UDIM 평면
@@ -887,6 +892,7 @@
 	Voronoi	보로노이
 	Warp	워프
 	Warp Directional	방향성 워프
+	Wave scales	물결 비늘 무늬
 	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ(MTL 포함), 텍스처는 옆에
 	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	이 브라우저에서는 WebGPU를 사용할 수 없어 TextureCraft가 WebGL2로 실행됩니다. 렌더링 모드의 패스 트레이싱은 CPU에서 수행되며(더 느림), 큰 텍스처 세트는 낮은 해상도로 표시됩니다. 최신 Chrome, Edge, Safari는 WebGPU를 지원합니다.
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	베이크하는 동안 3D 뷰가 보여 주는 것: 가장 최근에 완료된 맵, 완료된 맵 중 선택한 하나, 또는 머티리얼. 아직 베이크되지 않은 맵은 중립 값으로 표시됩니다.

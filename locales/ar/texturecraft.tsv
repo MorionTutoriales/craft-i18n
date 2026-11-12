@@ -248,6 +248,7 @@
 	Depth of the sharp plane along the view (0: the orbit center)	عمق المستوى الحاد على طول خط النظر (0: مركز المدار)
 	Detail sizes	أحجام التفاصيل
 	Details saved to {file}	حُفظت التفاصيل في {file}
+	Diamond brocade	ديباج معيّن
 	Difference	الفرق
 	Dilation + default background color	تمديد + لون الخلفية الافتراضي
 	Dilation + transparent	تمديد + شفاف
@@ -391,6 +392,7 @@
 	Group layer(s)	تجميع الطبقة (الطبقات)
 	Grunge	تعتيق (Grunge)
 	Half	نصف
+	Halftone dots	نقاط نصف تونية
 	Hammered	مطروق
 	Hard light	ضوء ساطع (Hard Light)
 	Hardness	الصلابة
@@ -398,6 +400,8 @@
 	height	ارتفاع
 	Height offset	إزاحة الارتفاع
 	Height to normal strength	قوة تحويل الارتفاع إلى ناظم
+	Herringbone planks	ألواح بنقشة عظم السمكة
+	Hexagon tiles	بلاط سداسي
 	Hide all	إخفاء الكل
 	Hide UI	إخفاء واجهة المستخدم
 	Hide while painting	إخفاء أثناء الرسم
@@ -894,6 +898,7 @@
 	Tri-planar projection	إسقاط ثلاثي المستويات (Tri-planar)
 	Triangle fill	تعبئة مثلث
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	المثلث يملأ مثلثات منفردة، والمضلع رباعيات ومضلعات كاملة، والمجسم الهندسة المتصلة، وجزيرة UV جزر UV
+	Truchet arcs	أقواس تروشيه
 	Twill weave	نسيج مائل
 	UDIM plane	مستوي UDIM
 	UDIM tiles painted by this texture set, each at the set's size	بلاطات UDIM المرسومة بمجموعة الخامات هذه، كل منها بحجم المجموعة
@@ -936,6 +941,7 @@
 	Voronoi	فورونوي (Voronoi)
 	Warp	التواء (Warp)
 	Warp Directional	التواء اتجاهي
+	Wave scales	حراشف موجية
 	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ مع MTL، والخامات بجانبه
 	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU غير متاح في هذا المتصفح، لذا يعمل TextureCraft على WebGL2: نمط التصيير يتتبع المسار على المعالج (أبطأ) ومجموعات الخامات الكبيرة تظهر بدقة مخفضة. يتوفر WebGPU في الإصدارات الحديثة من Chrome وEdge وSafari.
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	ما يعرضه العرض ثلاثي الأبعاد أثناء الخبز: أحدث خريطة مكتملة، أو أي خريطة مكتملة تختارها، أو الخامة. الخرائط التي لم تُخبز بعد تعرض قيمة محايدة.

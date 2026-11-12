@@ -237,6 +237,7 @@
 	Depth of the sharp plane along the view (0: the orbit center)	Profondeur du plan net le long de la vue (0 : le centre d'orbite)
 	Detail sizes	Tailles de détail
 	Details saved to {file}	Détails enregistrés dans {file}
+	Diamond brocade	Brocart à losanges
 	Dilation + default background color	Dilatation + couleur de fond par défaut
 	Dilation + transparent	Dilatation + transparent
 	Dilation infinite	Dilatation infinie
@@ -372,6 +373,7 @@
 	Group layer(s)	Grouper le(s) calque(s)
 	Grunge	Grunge
 	Half	Moitié
+	Halftone dots	Points de trame
 	Hammered	Martelé
 	Hard light	Lumière crue
 	Hardness	Dureté
@@ -379,6 +381,8 @@
 	height	hauteur
 	Height offset	Décalage de hauteur
 	Height to normal strength	Intensité hauteur vers normale
+	Herringbone planks	Lames en bâtons rompus
+	Hexagon tiles	Carreaux hexagonaux
 	Hide all	Tout masquer
 	Hide UI	Masquer l'interface
 	Hide while painting	Masquer pendant la peinture
@@ -840,6 +844,7 @@
 	Tri-planar projection	Projection triplanaire
 	Triangle fill	Remplissage de triangles
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	Triangle remplit des triangles seuls, Polygone des quads et n-gones entiers, Maillage la géométrie connectée, Îlot UV les îlots UV
+	Truchet arcs	Arcs de Truchet
 	Twill weave	Armure sergé
 	UDIM plane	Plan UDIM
 	UDIM tiles painted by this texture set, each at the set's size	Tuiles UDIM peintes par cet ensemble de textures, chacune à la taille de l'ensemble
@@ -879,6 +884,7 @@
 	Voronoi	Voronoï
 	Warp	Distorsion
 	Warp Directional	Distorsion directionnelle
+	Wave scales	Écailles de vagues
 	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ avec MTL, textures à côté
 	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU n'est pas disponible dans ce navigateur : TextureCraft utilise WebGL2. Le mode Rendu calcule le tracé de chemins sur le CPU (plus lent) et les grands ensembles de textures s'affichent en résolution réduite. Une version récente de Chrome, Edge ou Safari prend en charge WebGPU.
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	Ce que la vue 3D affiche pendant la cuisson : la dernière carte terminée, une carte terminée au choix ou le matériau. Les cartes pas encore cuites affichent une valeur neutre.

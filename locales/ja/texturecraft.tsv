@@ -240,6 +240,7 @@
 	Detail sizes	ディテールサイズ
 	Details	ディテール
 	Details saved to {file}	詳細の保存先: {file}
+	Diamond brocade	菱形の錦織
 	Dilation + default background color	ダイレーション + デフォルト背景色
 	Dilation + transparent	ダイレーション + 透明
 	Dilation infinite	ダイレーション (無限)
@@ -377,6 +378,7 @@
 	Group layer(s)	レイヤーをグループ化
 	Grunge	グランジ
 	Half	1/2
+	Halftone dots	網点
 	Hammered	槌目
 	Hard light	ハードライト
 	Hardness	硬さ
@@ -385,6 +387,8 @@
 	height	ハイト
 	Height offset	ハイトオフセット
 	Height to normal strength	ハイト→ノーマル強度
+	Herringbone planks	ヘリンボーンの板
+	Hexagon tiles	六角形タイル
 	Hide all	すべて非表示
 	Hide UI	UIを非表示
 	Hide while painting	ペイント中は隠す
@@ -850,6 +854,7 @@
 	Tri-planar projection	トライプラナー投影
 	Triangle fill	三角形塗りつぶし
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	三角形は個々の三角形、ポリゴンは四角形やNゴン全体、メッシュはつながったジオメトリ、UVアイランドはUVアイランドを塗りつぶします
+	Truchet arcs	トルシェの円弧
 	Twill weave	綾織り
 	UDIM plane	UDIM平面
 	UDIM tiles painted by this texture set, each at the set's size	このテクスチャセットがペイントするUDIMタイル (各タイルはセットのサイズ)
@@ -890,6 +895,7 @@
 	Vivid light	ビビッドライト
 	Voronoi	ボロノイ
 	Warp Directional	方向ワープ
+	Wave scales	波のうろこ模様
 	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ（MTL付き）、テクスチャは別ファイル
 	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	このブラウザーでは WebGPU を利用できないため、TextureCraft は WebGL2 で動作しています。レンダリングモードのパストレーシングは CPU で行われ (低速)、大きなテクスチャセットは解像度を下げて表示されます。最新の Chrome、Edge、Safari は WebGPU に対応しています。
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	ベイク中に3Dビューが表示するもの：最後に完成したマップ、完成済みの好きなマップ、またはマテリアル。まだベイクされていないマップは中立値で表示されます。

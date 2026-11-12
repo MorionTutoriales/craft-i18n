@@ -240,6 +240,7 @@
 	Detail sizes	细节尺寸
 	Details	细节
 	Details saved to {file}	详细信息已保存到 {file}
+	Diamond brocade	菱形织锦
 	Dilation + default background color	扩张 + 默认背景色
 	Dilation + transparent	扩张 + 透明
 	Dilation infinite	无限扩张
@@ -378,6 +379,7 @@
 	Group layer(s)	将图层编组
 	Grunge	污渍
 	Half	1/2
+	Halftone dots	半色调网点
 	Hammered	锤纹
 	Hard light	强光
 	Hardness	硬度
@@ -385,6 +387,8 @@
 	height	高度
 	Height offset	高度偏移
 	Height to normal strength	高度转法线强度
+	Herringbone planks	人字形木板
+	Hexagon tiles	六边形瓷砖
 	Hide all	全部隐藏
 	Hide UI	隐藏界面
 	Hide while painting	绘制时隐藏
@@ -850,6 +854,7 @@
 	Tri-planar projection	三平面投影
 	Triangle fill	三角形填充
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	三角形填充单个三角形，多边形填充整个四边形和 n 边形，网格填充相连的几何体，UV 岛填充 UV 岛
+	Truchet arcs	特吕谢弧线
 	Twill weave	斜纹织物
 	UDIM plane	UDIM 平面
 	UDIM tiles painted by this texture set, each at the set's size	此纹理集绘制的 UDIM 图块，每个都使用纹理集的尺寸
@@ -889,6 +894,7 @@
 	Vivid light	亮光
 	Voronoi	沃罗诺伊
 	Warp Directional	方向变形
+	Wave scales	波浪鳞纹
 	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ（含 MTL），纹理单独存放
 	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	此浏览器不支持 WebGPU，因此 TextureCraft 使用 WebGL2 运行：渲染模式在 CPU 上进行路径追踪（较慢），大型纹理集以降低的分辨率显示。最新版 Chrome、Edge 和 Safari 支持 WebGPU。
 	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	烘焙过程中 3D 视图显示的内容：最新完成的贴图、任意已完成的贴图，或材质。尚未烘焙的贴图显示中性值。
